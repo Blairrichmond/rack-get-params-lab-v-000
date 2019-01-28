@@ -21,7 +21,7 @@ class Application
           resp.write "#{cart}\n"
         end
       else
-        
+        resp.write "Your cart is empty."
     else
       resp.write "Path Not Found"
     end
